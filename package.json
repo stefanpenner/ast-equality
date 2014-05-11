@@ -1,0 +1,24 @@
+{
+  "name": "esprima-ast-equality",
+  "version": "0.0.1",
+  "description": "AST equality test helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanpenner/esprima-ast-equal"
+  },
+  "keywords": [
+    "esprima",
+    "testing"
+  ],
+  "author": "Stefan Penner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanpenner/esprima-ast-equal/issues"
+  },
+  "homepage": "https://github.com/stefanpenner/esprima-ast-equal",
+  "dependencies": {}
+}
