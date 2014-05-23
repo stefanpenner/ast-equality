@@ -20,8 +20,7 @@
     "url": "https://github.com/stefanpenner/esprima-ast-equal/issues"
   },
   "homepage": "https://github.com/stefanpenner/esprima-ast-equal",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "esprima": "~1.2.2"
   }
 }
