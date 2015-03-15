@@ -11,11 +11,11 @@ EqualityError.prototype.name = 'EqualityError';
 EqualityError.prototype.constructor = EqualityError;
 
 var assert = require('assert');
-var esprima = require('esprima');
+var parser = require('acorn-babel');
 
 module.exports = function(actual, expected, message) {
-  var parsedActual   = esprima.parse(actual);
-  var parsedExpected = esprima.parse(expected);
+  var parsedActual   = parser.parse(actual,   { ecmaVersion: 6 });
+  var parsedExpected = parser.parse(expected, { ecmaVersion: 6 });
 
   var seemEqual = JSON.stringify(parsedActual) === JSON.stringify(parsedExpected);
 
