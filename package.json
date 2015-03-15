@@ -1,6 +1,6 @@
 {
-  "name": "esprima-ast-equality",
-  "version": "0.0.4",
+  "name": "ast-equality",
+  "version": "1.0.0",
   "description": "AST equality test helper",
   "main": "index.js",
   "scripts": {
